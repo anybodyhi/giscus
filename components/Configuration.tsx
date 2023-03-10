@@ -559,20 +559,20 @@ export default function Configuration({ directConfig, onDirectConfigChange }: IC
       ) : null}
       <div dir="ltr" className="highlight highlight-text-html-basic relative">
         
-       <script src="https://giscus-omega.vercel.app//client.js"
-        data-repo="anybodyhi/hugo-giscus"
-        data-repo-id="R_kgDOJHd3LQ"
-        data-category-id="DIC_kwDOJHd3Lc4CUxrT"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="bottom"
-        data-theme="preferred_color_scheme"
-        data-lang="en"
-        crossOrigin="anonymous"
-        async>
-       </script>
+        <script src="https://giscus-omega.vercel.app//client.js"
+          data-repo="anybodyhi/hugo-giscus"
+          data-repo-id="R_kgDOJHd3LQ"
+          data-category-id="DIC_kwDOJHd3Lc4CUxrT"
+          data-mapping="pathname"
+          data-strict="0"
+          data-reactions-enabled="1"
+          data-emit-metadata="0"
+          data-input-position="bottom"
+          data-theme="preferred_color_scheme"
+          data-lang="en"
+          crossOrigin="anonymous"
+          async>
+        </script>
         <pre>
           <span className="pl-kos">{'<'}</span>
           <span className="pl-ent">script</span> <span className="pl-c1">src</span>={'"'}
