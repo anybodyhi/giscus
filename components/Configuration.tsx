@@ -558,7 +558,6 @@ export default function Configuration({ directConfig, onDirectConfigChange }: IC
         </div>
       ) : null}
       <div dir="ltr" className="highlight highlight-text-html-basic relative">
-        
         <script src="https://giscus-omega.vercel.app//client.js"
           data-repo="anybodyhi/hugo-giscus"
           data-repo-id="R_kgDOJHd3LQ"
