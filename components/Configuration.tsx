@@ -558,7 +558,8 @@ export default function Configuration({ directConfig, onDirectConfigChange }: IC
         </div>
       ) : null}
       <div dir="ltr" className="highlight highlight-text-html-basic relative">
-        <script src="https://giscus-omega.vercel.app//client.js"
+        <Script
+          src="https://giscus-omega.vercel.app//client.js"
           data-repo="anybodyhi/hugo-giscus"
           data-repo-id="R_kgDOJHd3LQ"
           data-category-id="DIC_kwDOJHd3Lc4CUxrT"
@@ -570,8 +571,8 @@ export default function Configuration({ directConfig, onDirectConfigChange }: IC
           data-theme="preferred_color_scheme"
           data-lang="en"
           crossOrigin="anonymous"
-          async>
-        </script>
+          async
+        />
         <pre>
           <span className="pl-kos">{'<'}</span>
           <span className="pl-ent">script</span> <span className="pl-c1">src</span>={'"'}
