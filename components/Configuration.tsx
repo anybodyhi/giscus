@@ -2,6 +2,7 @@ import { CheckIcon, CopyIcon, SyncIcon, XIcon } from '@primer/octicons-react';
 import { useEffect, useState } from 'react';
 import { handleClipboardCopy } from '../lib/adapter';
 import { useDebounce } from '../lib/hooks';
+import Script from 'next/script';
 import {
   AvailableLanguage,
   availableLanguages,
